@@ -217,6 +217,175 @@
     .item-1-text {
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        max-width: 450px;
+    }
+
+    .img__marketing {
+        width: 430px;
+        height: 100%;
+    }
+
+    .item-1-text {
+        text-align: center;
+    }
+
+    .place {
+        width: 100%;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .holder__according {
+        width: 420px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .img-fb, .img-g, .img-tw {
+        width: 15px;
+        height: 15px;
+    }
+
+    .social-link__g {
+        margin: 0 2px;
+    }
+
+    .skype-name {
+        margin: 0 0 0 2px;
+    }
+
+    .mail-name {
+        margin-left: 2px;
+    }
+
+    .info__mail {
+        margin-left: 20px;
+    }
+
+    .container__hole {
+        width: 250px;
+        height: 70px;
+    }
+
+    .contact-triangle {
+        border-width: 15px 66px 40px 0;
+    }
+
+    .triangle__skype, .triangle__mail {
+        left: 37px;
+    }
+
+    .tag-triangle {
+        margin-left: 5px;
+    }
+
+    .img__marketing {
+        width: 250px;
+    }
+
+    .content__img__border {
+        width: 210px;
+        top: 0;
+    }
+
+    .holder__according {
+        width: 300px;
+    }
+
+    .detail-txt {
+        font-size: 10px !important;
+    }
+
+    .info__skype {
+        margin-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 250px;
+    }
+
+    .img-skype, .img-email {
+        display: none;
+    }
+
+    .mail-name {
+        font-size: 9px;
+    }
+
+    .skype-name {
+        font-size: 9px;
+    }
+
+    .img-tw, .img-g, .img-fb {
+        width: 12px;
+        height: 12px;
+    }
+
+    .container__wrap-nameComp {
+        font-size: 1.2em;
+    }
+
+    .container__hole {
+        width: 200px;
+        height: 60px;
+    }
+
+    .hole__price {
+        font-size: 1.45em;
+        left: 33.2%;
+    }
+
+    .tag-triangle {
+        display: none;
+    }
+
+    .wrap-contact {
+        width: 70%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .post-btn {
+        width: 180px;
+        height: 44px;
+    }
+
+    .detail-txt {
+        font-size: 9px !important;
+    }
+
+    .holder__according {
+        width: 250px;
+    }
+
+    .according__head {
+        font-size: .6em;
+    }
+
+    .footer-logo {
+        font-size: 1.2em;
+    }
+
+    .wrap-img-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .page__footer {
+        padding: 12% 0;
+    }
 
 }
 
