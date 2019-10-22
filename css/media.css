@@ -1,8 +1,19 @@
 
+@media only screen and (max-width: 1500px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+
 @media only screen and (max-width: 1440px) {
     .content__img__border {
         width: 418px;
         height: 100%;
+    }
+
+    .container {
+        max-width: 1170px !important;
     }
 
     .img__marketing {
@@ -13,7 +24,7 @@
 
 @media only screen and (max-width: 1024px) {
     .container {
-        max-width: 900px;
+        max-width: 900px !important;
     }
 
     .list-item {
@@ -482,17 +493,8 @@
         height: 44px;
     }
 
-    .wrap-detail {
-        min-width: 100%;
-    }
-
-    .main-details {
-        flex-wrap: wrap;
-    }
-
     .detail-txt {
         font-size: 15px !important;
-        text-align: justify;
     }
 
     .holder__according {
@@ -527,10 +529,6 @@
 
     html {
         font-size: 62.5%;
-    }
-
-    .container {
-        max-width: 660px;
     }
 
 }

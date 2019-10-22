@@ -289,9 +289,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    flex-wrap: wrap;
 }
+
+
 
 .content-text {
     width: 50%;
@@ -422,14 +423,14 @@
 
 .place {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 33%;
 }
 
 .contact-txt {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.1em;
+    font-size: 15px;
     color: #ffffff;
 
 }
