@@ -456,11 +456,25 @@
     text-decoration: none;
     font-size: 1.1em;
     font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
 }
 
-.txt-link:hover {
-    text-decoration: underline orange;
-    transition: .5s ease-out;
+.txt-link:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f8a62b;
+    content: "";
+    transition: width 0.3s ease-out
+}
+
+.txt-link:hover:after,
+.txt-link:focus:after {
+    width: 100%;
 }
 
 .page__faq {
@@ -575,6 +589,11 @@
 .according.active .rotate-arrow {
     opacity: 1;
     transform: rotate(180deg);
+}
+
+#toTop:hover {
+    box-shadow: 5px 4px 20px rgba(248, 166, 43, .45);
+    transition: .5s all;
 }
 
 #toTop {
