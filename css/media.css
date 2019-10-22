@@ -177,7 +177,7 @@
 
 @media only screen and (max-width: 760px) {
     .container {
-        max-width: 640px;
+        max-width: 640px !important;
         margin: 0 auto;
     }
 
@@ -205,7 +205,7 @@
 
 @media only screen and (max-width: 640px) {
     .container {
-        max-width: 520px;
+        max-width: 520px !important;
     }
 
     .img-tw, .img-fb, .img-g {
@@ -306,7 +306,7 @@
 
 @media only screen and (max-width: 550px) {
     .container {
-        max-width: 450px;
+        max-width: 450px !important;
     }
 
     .img__marketing {
@@ -351,7 +351,7 @@
 
 @media only screen and (max-width: 451px) {
     .container {
-        max-width: 350px;
+        max-width: 350px !important;
     }
 
     .img-fb, .img-g, .img-tw {
@@ -431,7 +431,7 @@
 
 @media only screen and (max-width: 320px) {
     .container {
-        width: 250px;
+        width: 250px !important;
     }
 
     .img-skype, .img-email {
