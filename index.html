@@ -40,7 +40,7 @@
 
     </div>
 </header>
-<section class="page__main-section">
+<section class="page__main-section"  >
     <div class="container main-section__container">
         <div class="wrap-logo">
             <a href="#" class="logo-link"><h2 class="wrap-logo__logo">New <span class="logo-item"> Digital</span></h2>
@@ -48,16 +48,16 @@
         </div>
 
         <div class="wrap-menu">
-            <nav class="wrap-menu__nav">
+            <nav id="wrap-menu__nav" class="wrap-menu__nav">
                 <ul class="nav__list">
 
-                    <li class="list-item"><a class="list-link" href="#">Home </a></li>
-                    <li class="list-item"><a class="list-link" href="#">About us </a></li>
+                    <li class="list-item"><a class="list-link" href="#main-section">Home </a></li>
+                    <li class="list-item"><a class="list-link" href="#about-us">About us </a></li>
                     <li class="list-item">
-                        <a class="list-link" href="#">Why us? </a></li>
-                    <li class="list-item"><a class="list-link" href="#">faq </a></li>
-                    <li class="list-item"><a class="list-link" href="#">Post Now </a></li>
-                    <li class="list-item"><a class="list-link" href="#">Blog </a></li>
+                        <a class="list-link" href="#why-us">Why us? </a></li>
+                    <li class="list-item"><a class="list-link" href="#faq">faq </a></li>
+                    <li class="list-item"><a class="list-link" href="#post-btn">Post Now </a></li>
+                    <li class="list-item"><a class="list-link" href="#about-us">Blog </a></li>
 
                 </ul>
             </nav>
@@ -70,22 +70,22 @@
                         <span class="hamburger__label">Open menu</span>
                     </button>
                 </div>
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <ul class="list menu__list">
-                        <li class="menu__group"><a class="link menu__link" href="#">Home </a></li>
-                        <li class="menu__group"><a class="link menu__link" href="#">About us </a></li>
+                        <li class="menu__group"><a class="link menu__link" href="#main-section">Home </a></li>
+                        <li class="menu__group"><a class="link menu__link" href="#about-us">About us </a></li>
                         <li class="menu__group">
-                            <a class="link menu__link" href="#">Why us? </a></li>
-                        <li class="menu__group"><a class="link menu__link" href="#">faq </a></li>
-                        <li class="menu__group"><a class="link menu__link" href="#">Post Now </a></li>
-                        <li class="menu__group"><a class="link menu__link" href="#">Blog </a></li>
+                            <a class="link menu__link" href="#why-us">Why us? </a></li>
+                        <li class="menu__group"><a class="link menu__link" href="#faq">faq </a></li>
+                        <li class="menu__group"><a class="link menu__link" href="#post-btn">Post Now </a></li>
+                        <li class="menu__group"><a class="link menu__link" href="#main-section">Blog </a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </div>
 </section>
-<section class="page__attention-section">
+<section class="page__attention-section" id="main-section">
     <div class="container attention-section__container">
         <div class="name-company container__wrap-nameComp">
             <h2>Feature Posts</h2>
@@ -122,7 +122,7 @@
         </div>
     </div>
 </section>
-<section class="page__aboutUs">
+<section class="page__aboutUs" id="about-us">
     <div class="container aboutUs__container">
         <div class="container__h2-about">
             <h2 class="about-h2">About Us</h2>
@@ -170,11 +170,11 @@
             </div>
 
         </div>
-        <div class="wrap-postButton">
+        <div class="wrap-postButton" id="post-btn">
             <input type="button" value="Get a Feature Post" class="post-btn">
         </div>
 
-        <div class="container__hold-posts">
+        <div class="container__hold-posts" id="why-us">
             <div class="hold-posts">
                 <h2 class="posts">Posts Start From <span class="color-posts"> Only $250</span></h2>
             </div>
@@ -207,7 +207,7 @@
         </div>
     </div>
 </section>
-<section class="page__contact-section">
+<section class="page__contact-section" id="contact-us">
     <div class="container container-contact">
         <div class="holder-contact">
             <div class="contact-h2">
@@ -235,7 +235,7 @@
         </div>
     </div>
 </section>
-<section class="page__faq">
+<section class="page__faq" id="faq">
     <div class="container faq-container">
         <div class="wrap-faq">
             <div class="holder__faq-h2">
@@ -291,22 +291,23 @@
 <footer class="page__footer">
     <div class="container footer__container">
         <div class="wrap-footer-logo">
-            <h2 class="footer-logo">New Digital</h2>
+            <h2 class="footer-logo"><a href="#main-section" class="footer-logo-link">New Digital</a></h2>
         </div>
-        <div class="item-holder">
+        <div class="item-holder" id="nav-holder">
             <ul class="holder">
-                <li class="items"><a class="items-link" href="#">Home</a></li>
-                <li class="items"><a class="items-link" href="#">About us</a></li>
-                <li class="items"><a class="items-link" href="#">Why Us?</a></li>
-                <li class="items"><a class="items-link" href="#">FAQ</a></li>
-                <li class="items"><a class="items-link" href="#">Contact</a></li>
-                <li class="items"><a class="items-link" href="#">Post Now</a></li>
+                <li class="items"><a class="items-link" href="#main-section">Home</a></li>
+                <li class="items"><a class="items-link" href="#about-us">About us</a></li>
+                <li class="items"><a class="items-link" href="#why-us">Why Us?</a></li>
+                <li class="items"><a class="items-link" href="#faq">FAQ</a></li>
+                <li class="items"><a class="items-link" href="#contact-us">Contact</a></li>
+                <li class="items"><a class="items-link" href="#post-btn">Post Now</a></li>
             </ul>
         </div>
         <div class="holder-imgs">
             <div class="wrap-img-link">
                 <a href="#"> <img src="img/fb%20(1).png" alt="Facebook"></a>
             </div>
+
             <div class="wrap-img-link">
                 <a href="#"> <img src="img/google.png" alt="google-plus"></a>
             </div>

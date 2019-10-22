@@ -64,7 +64,7 @@
     }
 
     .detail-txt {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .det-mon, .det-percent, .det-bottle, .det-pay {
@@ -78,7 +78,7 @@
     }
 
     .contact-txt {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .according__head {
@@ -100,6 +100,10 @@
     .wrap-img-link img {
         width: 30px;
         height: 30px;
+    }
+
+    .according__body {
+        font-size: .9em;
     }
 
 }
@@ -150,7 +154,40 @@
     }
 
     .contact-txt {
-        font-size: .7em;
+        font-size: .82em;
+    }
+
+    .item-1-text {
+        text-align: justify;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .container {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .contact-triangle {
+        border-width: 20px 100px 65px 0;
+    }
+
+    .contact-txt {
+        font-size: 12px;
+    }
+
+    .hole__price {
+        font-size: 25px;
+    }
+
+    .tag-triangle {
+        font-size: 20px;
+    }
+
+    .holder__according {
+        width: 600px;
     }
 
 }
@@ -191,13 +228,27 @@
 
     .detail-txt {
         margin-top: 20px;
-        width: 60%;
-        font-size: 12px !important;
+        width: 80%;
+        font-size: 15px !important;
 
     }
 
     .wrap-detail {
         width: 100%;
+    }
+
+    .holder-triangle {
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+    }
+
+    .place {
+        width: 51%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
     }
 
     .about-img {
@@ -206,7 +257,12 @@
     }
 
     .contact-txt {
-        font-size: .8em;
+        font-size: 16px;
+        min-width: 100%;
+    }
+
+    .contact-item {
+        font-size: 30px;
     }
 
     .holder__according {
@@ -214,9 +270,27 @@
 
     }
 
+    .according__head {
+        font-size: 16px;
+    }
+
+    .according__body {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .faq-h2 {
+        font-size: 20px;
+    }
+
     .item-1-text {
         width: 100%;
     }
+
+    .tag-triangle {
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -243,16 +317,35 @@
         width: 420px;
     }
 
+    .contact-txt {
+        min-width: 60%;
+        font-size: 19.5px;
+    }
+
+    .contact-triangle {
+        border-width: 15px 70px 40px 0;
+    }
+
+    .det-mon, .det-bottle, .det-percent, .det-pay {
+        width: 80px !important;
+        height: 72px !important;
+    }
+
+    .tag-triangle {
+        font-size: 14.5px;
+        margin: 0 5px;
+    }
+
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 451px) {
     .container {
         max-width: 350px;
     }
 
     .img-fb, .img-g, .img-tw {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 
     .social-link__g {
@@ -286,6 +379,7 @@
 
     .tag-triangle {
         margin-left: 5px;
+        font-size: 12px;
     }
 
     .img__marketing {
@@ -297,16 +391,29 @@
         top: 0;
     }
 
+    .item-1-text {
+        text-align: justify;
+        font-size: 16px;
+    }
+
     .holder__according {
         width: 300px;
     }
 
     .detail-txt {
-        font-size: 10px !important;
+        font-size: 15px !important;
     }
 
     .info__skype {
         margin-left: 15px;
+    }
+
+    .according__head {
+        font-size: 14.5px;
+    }
+
+    .contact-txt {
+        font-weight: 600;
     }
 
 }
@@ -326,6 +433,19 @@
 
     .skype-name {
         font-size: 9px;
+    }
+
+    .txt-link {
+        font-size: 15px;
+    }
+
+    .contact-txt {
+        font-size: 15px;
+    }
+
+    .det-pay, .det-percent, .det-bottle, .det-mon {
+        width: 60px !important;
+        height: 60px !important;
     }
 
     .img-tw, .img-g, .img-fb {
@@ -362,8 +482,17 @@
         height: 44px;
     }
 
+    .wrap-detail {
+        min-width: 100%;
+    }
+
+    .main-details {
+        flex-wrap: wrap;
+    }
+
     .detail-txt {
-        font-size: 9px !important;
+        font-size: 15px !important;
+        text-align: justify;
     }
 
     .holder__according {
@@ -371,11 +500,15 @@
     }
 
     .according__head {
-        font-size: .6em;
+        font-size: 12px;
+    }
+
+    .according__body {
+        font-size: 14px;
     }
 
     .footer-logo {
-        font-size: 1.2em;
+        font-size: 15.5px;
     }
 
     .wrap-img-link img {
@@ -395,6 +528,11 @@
     html {
         font-size: 62.5%;
     }
+
+    .container {
+        max-width: 660px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -402,6 +540,7 @@
     html {
         font-size: 50%;
     }
+
 }
 
 .page {
@@ -456,5 +595,16 @@ a {
     margin-bottom: .5rem;
 }
 
+.custop {
+    text-decoration-color: #f0f0f0;
+    animation-timing-function: ease-in-out;
+    glyph-orientation-vertical: initial;
+}
 
-
+.footer-logo {
+    display: grid;
+    grid-auto-columns: fit-content(1fr);
+    grid-column-gap: unset;
+    grid-column-start: span;
+    grid-gap: initial;
+}

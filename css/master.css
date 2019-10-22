@@ -505,6 +505,11 @@
     display: block;
 }
 
+.container__navbar-mob {
+    opacity: .94;
+    z-index: 100;
+}
+
 .rotate-arrow {
     position: absolute;
     right: 0;
@@ -644,6 +649,7 @@
     font-weight: 700;
 }
 
-
-
-
+.footer-logo-link {
+    color: #ffffff;
+    text-decoration: none;
+}
